@@ -7,7 +7,7 @@ first add your own function in gv_function file in main folder then edit run fil
   from gentic_class import *
 
 
-# determine search space and optimization dimention
+# determine search space and optimization dimension
 space = np.array([[-20,20],[-3,3]])
 
 settings = {
