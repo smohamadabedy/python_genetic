@@ -1,1 +1,1 @@
-from    .genetic_class       import GA
+from    .genetic_class  import GA

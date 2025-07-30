@@ -9,7 +9,7 @@ def sphere_3d(x):
 # Define the configuration settings for the Genetic Algorithm
 settings = {
              "space"                 : ([[-100, 100], [-100, 100], [-100, 100]]),            # Search space for each dimension
-             "total_population"      : 50,                                                  # Number of individuals in the population
+             "total_population"      : 50,                                                   # Number of individuals in the population
              "mutation_rate"         : 0.1,                                                  # Fraction of new individuals introduced through mutation
              "selection"             : "simple",                                             # Parent selection method (e.g., simple random)
              "selection_rate"        : 0.5,                                                  # Fraction of top individuals selected for mating
